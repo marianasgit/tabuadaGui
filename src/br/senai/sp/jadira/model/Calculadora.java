@@ -17,8 +17,8 @@ public class Calculadora {
 		return this.multiplicador;
 	}
 	
-	public void setMultiplicador(String maximoMultiplicador) {
-		this.multiplicador = Integer.parseInt(maximoMultiplicador);
+	public void setMultiplicador(String multiplicador) {
+		this.multiplicador = Integer.parseInt(multiplicador);
 	}
 	
 	public String[] calcular() {
